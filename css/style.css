@@ -54,6 +54,10 @@ img {
 }
 
 @media (min-width: 768px) {
+  .site-header {
+    background-color: #170505;
+  }
+  
   .site-header__logo {
     order: 2;
     height: 400px;
