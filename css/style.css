@@ -44,6 +44,13 @@ img {
   height: 85px;
 }
 
+.main-nav {
+  width: 320px;
+  margin: 0 auto;
+  
+  background-color: #ddb577;
+}
+
 .main-nav__list {
   margin: 0;
   padding: 0;
