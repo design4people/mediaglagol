@@ -51,6 +51,13 @@ img {
   background-color: #ddb577;
 }
 
+@media (min-width: 768px) {
+  .main-nav {
+    width: auto;
+    margin: 0;
+  }
+}
+
 .main-nav__list {
   margin: 0;
   padding: 0;
