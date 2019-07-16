@@ -83,7 +83,9 @@ img {
 
 @media (min-width: 1200px) {
   .site-header__logo {
-    height: 648px;
+    height: 410px;
+    
+    background-size: cover;
   }
 }
 
