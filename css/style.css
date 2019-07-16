@@ -47,5 +47,6 @@ img {
 @media (min-width: 768px) {
   .site-header__logo {
     order: 2;
+    height: 400px;
   }
 }
