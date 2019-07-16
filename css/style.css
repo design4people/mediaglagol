@@ -68,6 +68,10 @@ img {
   .site-list {
     width: 570px;
   }
+  
+  .user-list {
+    width: 60px;
+  }
 }
 
 .main-nav__list {
