@@ -56,6 +56,11 @@ img {
     width: auto;
     margin: 0;
   }
+  
+  .main-nav__wrapper {
+    width: 640px;
+    margin: 0 auto;
+  }
 }
 
 .main-nav__list {
