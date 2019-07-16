@@ -44,6 +44,11 @@ img {
   height: 85px;
 }
 
+.site-header__ligo img {
+  width: 262px;
+  height: 34px;
+}
+
 .main-nav {
   width: 320px;
   margin: 0 auto;
