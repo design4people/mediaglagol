@@ -39,3 +39,7 @@ img {
   display: flex;
   flex-direction: column;
 }
+
+.site-header__logo {
+  height: 85px;
+}
