@@ -50,3 +50,9 @@ img {
     height: 400px;
   }
 }
+
+@media (min-width: 1200px) {
+  .site-header__logo {
+    height: 648px;
+  }
+}
