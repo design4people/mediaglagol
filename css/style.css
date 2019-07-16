@@ -38,6 +38,8 @@ img {
 .site-header {
   display: flex;
   flex-direction: column;
+  
+  background-color: #170505;
 }
 
 .site-header__logo {
