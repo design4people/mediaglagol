@@ -74,6 +74,12 @@ img {
   }
 }
 
+@media (min-width: 1200px) {
+  .main-nav__wrapper {
+    width: 960px;
+  }
+}
+
 .main-nav__list {
   margin: 0;
   padding: 0;
