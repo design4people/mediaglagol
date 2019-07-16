@@ -69,6 +69,14 @@ img {
     background-repeat: no-repeat;
     background-position: 53% center;
   }
+  
+  .site-header__logo img {
+    display: block;
+    width: 400px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 100px;
+  }
 }
 
 @media (min-width: 1200px) {
