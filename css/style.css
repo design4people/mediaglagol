@@ -39,7 +39,7 @@ img {
   display: flex;
   flex-direction: column;
   
-  background-color: #170505;
+  background-color: #4d200b;
 }
 
 .site-header__logo {
@@ -51,6 +51,19 @@ img {
 .site-header__ligo img {
   width: 280px;
   height: 50px;
+}
+
+@media (min-width: 768px) {
+  .site-header__logo {
+    order: 2;
+    height: 400px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .site-header__logo {
+    height: 648px;
+  }
 }
 
 .main-nav {
@@ -102,17 +115,4 @@ img {
   padding: 0;
   
   list-style: none;
-}
-
-@media (min-width: 768px) {
-  .site-header__logo {
-    order: 2;
-    height: 400px;
-  }
-}
-
-@media (min-width: 1200px) {
-  .site-header__logo {
-    height: 648px;
-  }
 }
