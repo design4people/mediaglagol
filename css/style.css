@@ -42,6 +42,8 @@ img {
 
 .site-header__logo {
   height: 85px;
+  
+  text-align: center;
 }
 
 .site-header__ligo img {
