@@ -60,6 +60,9 @@ img {
   .main-nav__wrapper {
     width: 640px;
     margin: 0 auto;
+    
+    display: flex;
+    justify-content: space-between;
   }
 }
 
