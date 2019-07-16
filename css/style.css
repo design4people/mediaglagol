@@ -64,6 +64,10 @@ img {
     display: flex;
     justify-content: space-between;
   }
+  
+  .site-list {
+    width: 570px;
+  }
 }
 
 .main-nav__list {
