@@ -60,7 +60,14 @@ img {
   
   .site-header__logo {
     order: 2;
+    
+    width: 100%;
     height: 400px;
+    
+    background-color: #170505;
+    background-image: url("../img/bg-header.jpg");
+    background-repeat: no-repeat;
+    background-position: 53% center;
   }
 }
 
