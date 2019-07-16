@@ -68,7 +68,7 @@ img {
     background-image: url("../img/bg-header.jpg");
     background-repeat: no-repeat;
     /* background-position: 53% center; */
-    background-position: center;
+    background-position: right center;
     background-size: cover;
   }
   
