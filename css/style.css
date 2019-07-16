@@ -78,6 +78,14 @@ img {
   .main-nav__wrapper {
     width: 960px;
   }
+  
+  .site-list {
+    width: 780px;
+  }
+  
+  .site-list {
+    width: 160px;
+  }
 }
 
 .main-nav__list {
