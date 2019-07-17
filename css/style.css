@@ -109,11 +109,18 @@ img {
   top: 0;
   right: 0;
   z-index: 2;
+  display: block;
   width: 70px;
   height: 50px;
+
   background-color: #723e26;
   border: none;
   cursor: pointer;
+}
+
+.main-nav__toggle:hover,
+.main-nav__toggle:active {
+  background-color: #98664b;
 }
 
 @media (min-width: 768px) {
