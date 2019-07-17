@@ -95,7 +95,10 @@ img {
 }
 
 .main-nav {
+  position: relarive;
+  
   width: 320px;
+  min-height: 51px;
   margin: 0 auto;
   
   background-color: #ddb577;
