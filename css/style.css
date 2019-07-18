@@ -285,6 +285,21 @@ img {
   border-bottom: 1px solid #723e26;
 }
 
+.user-list__login-icon {
+  position: absolute;
+  top: 17px;
+  left: 20px;
+  
+  width: 16px;
+  height: 16px;
+  
+  opacity: 0.5;
+}
+
+.user-list__login-icon polygon {
+  fill: #ffffff;
+}
+
 @media (min-width: 768px) {
   .user-list {
     width: 60px;
