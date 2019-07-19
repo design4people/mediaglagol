@@ -225,6 +225,26 @@ img {
   list-style: none;
 }
 
+@media (max-width: 767px) {
+  .main-nav--closed .site-list__item {
+    display: none;
+  }
+  
+  .main-nav--closed .site-list__item--active {
+    display: block;
+  }
+  
+  .main-nav--closed .site-list__item--active a {
+    padding-right: 70px;
+    padding-left: 70px;
+    text-align: center;
+  }
+  
+  .main-nav--closed .user-list__item {
+    display: none;
+  }
+}
+
 .site-list {
   font-weight: bold;
 }
