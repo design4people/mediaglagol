@@ -122,6 +122,7 @@ img {
   position: relative;
   
   width: 320px;
+  /* встановлення мінімальної висоти потрібно для запобігання випадку, коли абсолютно зпозиціанований внутрішній контент виривається з контексту і висота блоку стає рівною 0 */
   min-height: 51px;
   margin: 0 auto;
   
@@ -242,6 +243,17 @@ img {
   
   .main-nav--closed .user-list__item {
     display: none;
+  }
+  
+  .main-nav--opened .main-nav__wrapper {
+    position: absolute;
+    top: 0;
+    left: 70px;
+    right: 0; 
+    z-index: 10px;
+    
+    min-height: 80vh;
+    background-color: #855237;
   }
 }
 
