@@ -338,6 +338,34 @@ img {
     
     width: 570px;
   }
+  
+  .site-list__item {
+    margin-right: 10px;
+  }
+  
+  .site-list__item:last-child {
+    margin-right: 0;
+  }
+  
+  .site-list__item a {
+    padding: 0;
+    padding-top: 25px ;
+    padding-bottom: 25px;
+    background: none;
+    border: none;
+  }
+  
+  .site-list__item a[href]:hover {
+    color: #98664b;
+    background-color: #000000;
+  }
+
+  .site-list__item a[href]:active {
+    color: #ffffff;
+    background-color: #000000;
+    opacity: 0.3;
+  }
+  
 }
 
 @media (min-width: 1200px) {
