@@ -202,14 +202,19 @@ img {
   .main-nav {
     width: auto;
     margin: 0;
+    background-color: #000000;
+  }
+  
+  .main-nav__toggle {
+    display: none;
   }
   
   .main-nav__wrapper {
-    width: 640px;
-    margin: 0 auto;
-    
     display: flex;
     justify-content: space-between;
+    
+    width: 640px;
+    margin: 0 auto;
   }
 }
 
