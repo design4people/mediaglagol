@@ -411,8 +411,8 @@ img {
   }
   
   .site-list__item a {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
   }
   
   .site-list__item a[href]:hover {
@@ -531,7 +531,7 @@ img {
   }
   
   .user-list__login {
-    padding: 25px 5px;
+    padding: 25px 8px;
     padding-left: 35px;
     width: auto;
     height: auto;
@@ -555,7 +555,7 @@ img {
   }
   
   .user-list__login:hover .user-list__login-icon {
-    opacity: 0.3;
+    opacity: 0.9;
   }
   
   .user-list__login:hover .user-list__login-icon polygon {
@@ -563,10 +563,10 @@ img {
   }
   
   .user-list__login:active .user-list__login-icon {
-    opacity: 0.9;
+    opacity: 0.3;
   }
   
   .user-list__login-icon {
-    left: 5px;
+    left: 10px;
   }
 }
