@@ -529,4 +529,44 @@ img {
   .user-list {
     width: 160px;
   }
+  
+  .user-list__login {
+    padding: 25px 5px;
+    padding-left: 35px;
+    width: auto;
+    height: auto;
+    
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+  
+  .user-list__login:hover {
+    color: #cd9723;
+    background-color: rgba(255,255,255,0.1);
+  }
+  
+  .user-list__login:active {
+    color: rgba(0, 0, 0, 0.3);
+    background-color: rgba(255,255,255,0.3);
+    opacity: 1;
+  }
+  
+  .user-list__login:hover .user-list__login-icon {
+    opacity: 0.3;
+  }
+  
+  .user-list__login:hover .user-list__login-icon polygon {
+    fill: #cd9723;
+  }
+  
+  .user-list__login:active .user-list__login-icon {
+    opacity: 0.9;
+  }
+  
+  .user-list__login-icon {
+    left: 5px;
+  }
 }
