@@ -481,6 +481,22 @@ img {
     /* left: 12px; */
     right: 0;
   }
+  
+  .user-list__login:hover .user-list__login-icon {
+    opacity: 1;
+  }
+  
+  .user-list__login:hover .user-list__login-icon polygon {
+    fill: #cd9723;
+  }
+  
+    .user-list__login:active .user-list__login-icon {
+    opacity: 0.3;
+  }
+
+  .user-list__login:active .user-list__login-icon polygon {
+    fill: #ffffff;
+  }
 }
 
 @media (min-width: 1200px) {
