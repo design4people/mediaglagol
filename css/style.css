@@ -370,7 +370,7 @@ img {
     left: 0;
     /* width: 100%; */
     height: 5px;
-    background: #cd9723;
+    background-color: #cd9723;
   }
   
   .site-list__item a[href]:active {
@@ -451,6 +451,24 @@ img {
 @media (min-width: 768px) {
   .user-list {
     width: 60px;
+  }
+  
+  .user-list__login {
+    width: 60px;
+    height: 74px;
+    padding: 0;
+    
+    font-size: 0;
+    
+    background-color: transparent;
+    border-top: none;
+    border-bottom: none;
+  }
+  
+  .user-list__login-icon {
+    top: 28px;
+    /* left: 12px; */
+    right: 0;
   }
 }
 
