@@ -397,7 +397,7 @@ img {
 
 @media (min-width: 1200px) {
   .site-list {
-    width: 780px;
+    /* width: 780px; */
     width: 850px;
   }
   
@@ -416,13 +416,13 @@ img {
   }
   
   .site-list__item a[href]:hover {
-    color: #4d200b;
-    background-color: rgba(255,255,255,0.8);
+    color: #cd9723;
+    background-color: rgba(255,255,255,0.1);
   }
   
   .site-list__item a[href]:active {
     color: rgba(0, 0, 0, 0.3);
-    background-color: rgba(255,255,255,0.2);
+    background-color: rgba(255,255,255,0.3);
     opacity: 1;
   }
 }
