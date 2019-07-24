@@ -597,7 +597,7 @@ img {
   margin: 0;
   margin-bottom: 26px;
   font-size: 14px;
-  line-height: 26px;
+  line-height: 24px;
   text-align: center;
 }
 
@@ -610,8 +610,13 @@ img {
     font-size: 32px;
     line-height: 38px;
     /* text-transform: none; */
+  }
+  
+  .declaration__text {
+    font-size: 16px;
+    line-height: 28px;
     
-    text-align: center;
+    text-align: justify;
   }
 }
 
