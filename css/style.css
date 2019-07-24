@@ -585,7 +585,7 @@ img {
 }
 
 .declaration__title {
-  margin-bottom: 28 px;
+  margin-bottom: 28px;
   font-size: 28px;
   text-transform: uppercase;
   line-height: 32px;
@@ -601,9 +601,17 @@ img {
   text-align: center;
 }
 
-@media (min-width: 576px) {
+@media (min-width: 768px) {
   .site-main {
     width: 640px;
+  }
+  
+  .declaration__title {
+    font-size: 32px;
+    line-height: 38px;
+    /* text-transform: none; */
+    
+    text-align: center;
   }
 }
 
