@@ -584,6 +584,15 @@ img {
   background-color: #ffffff;
 }
 
+.declaration__title {
+  /* margin-bottom: 18px; */
+  font-size: 28px;
+  text-transform: uppercase;
+  line-height: 32px;
+  font-weight: bold;
+  text-align: center;
+}
+
 @media (min-width: 576px) {
   .site-main {
     width: 640px;
