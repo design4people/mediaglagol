@@ -576,3 +576,7 @@ img {
   width: 320px;
   margin: 0 auto;
 }
+
+.declaration {
+  padding: 30px 10px; 
+}
