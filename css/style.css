@@ -580,3 +580,9 @@ img {
 .declaration {
   padding: 30px 10px; 
 }
+
+@media (min-width: 576px) {
+  .site-main {
+    width: 640px;
+  }
+}
