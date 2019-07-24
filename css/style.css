@@ -586,3 +586,9 @@ img {
     width: 640px;
   }
 }
+
+@media (min-width: 1200px) {
+  .site-main {
+    width: 960px;
+  }
+}
