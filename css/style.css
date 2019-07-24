@@ -633,4 +633,8 @@ img {
     font-size: 36px;
     line-height: 36px;
   }
+  
+  .declaration__title br {
+    display: none;
+  }
 }
