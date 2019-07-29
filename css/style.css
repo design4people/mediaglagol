@@ -605,7 +605,7 @@ img {
 }
 
 @media (min-width: 768px) {
-  .site-main {
+  .declaration {
     width: 640px;
   }
   
