@@ -646,3 +646,8 @@ img {
     line-height: 30px;
   }
 }
+
+.features {
+  color: #ffffff;
+  background-color: #4d200b;
+}
