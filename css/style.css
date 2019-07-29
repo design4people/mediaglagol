@@ -659,3 +659,7 @@ img {
   
   list-style: none;
 }
+
+.feature__item {
+  text-align: center;
+}
