@@ -575,8 +575,7 @@ img {
 }
 
 .site-main {
-  width: 320px;
-  margin: 0 auto;
+  background-color: #ffffff;
 }
 
 .declaration {
