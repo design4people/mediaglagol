@@ -651,3 +651,11 @@ img {
   color: #ffffff;
   background-color: #4d200b;
 }
+
+.features-list {
+  width: 300px;
+  margin: 0 auto;
+  padding: 30px 10px; 
+  
+  list-style: none;
+}
