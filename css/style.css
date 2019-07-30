@@ -655,9 +655,12 @@ img {
 .features-list {
   width: 300px;
   margin: 0 auto;
-  padding: 30px 10px; 
+  padding: 0; 
   
   list-style: none;
+  
+  /* тимчасово */
+  background-color: #444444;
 }
 
 .feature__item {
