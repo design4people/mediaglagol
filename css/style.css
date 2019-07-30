@@ -658,11 +658,19 @@ img {
   padding: 0; 
   
   list-style: none;
-  
-  /* тимчасово */
-  background-color: #444444;
 }
 
 .feature__item {
   text-align: center;
+  
+  /* тимчасово */
+  background-color: #555555;
+}
+
+.feature__item h3 {
+  margin: 0;
+}
+
+.feature__item p {
+  margin: 0;
 }
