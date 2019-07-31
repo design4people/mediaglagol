@@ -648,8 +648,33 @@ img {
 }
 
 .features {
+  position: relative;
+  margin-bottom: 50px;
+  
   color: #ffffff;
   background-color: #4d200b;
+}
+
+.features::before, 
+.features::after {
+  content: "";
+  position: absolute;
+  bottom: -30px;
+  
+  width: 50%;
+  height:30px;
+}
+
+.features::before {
+  right: 0px;
+  
+  background-image: linear-gradient(to left top, white 50%, #4d200b 52%);
+}
+
+.features::after {
+  left: 0px;
+  
+  background-image: linear-gradient(to right top, white 50%, #4d200b 52%);
 }
 
 .features-list {
