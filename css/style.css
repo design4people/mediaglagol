@@ -649,7 +649,7 @@ img {
 
 .features {
   position: relative;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
   
   color: #ffffff;
   background-color: #4d200b;
@@ -737,4 +737,34 @@ img {
 
 .feature__item p {
   margin: 0;
+}
+
+.topic,
+.contacts {
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  
+  color: #000000;
+  background-color: #ffffff;
+}
+
+.topic h2,
+.contacts h2 {
+  margin: 0;
+  margin-bottom: 20px;
+  
+  font-size: 24px;
+  line-height: 32px;
+  
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.topic p,
+.contacts p {
+  margin: 0;
+  margin-bottom: 20px;
+  
+  text-align: justify;
 }
