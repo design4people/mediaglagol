@@ -777,3 +777,12 @@ img {
   background-position: 0 0;
   background-repeat: repeat;
 }
+
+.site-footer a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.site-footer a:hover {
+  text-decoration: none;
+}
