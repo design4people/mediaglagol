@@ -694,6 +694,7 @@ img {
 
 .feature__item h3 {
   margin: 0;
+  margin-bottom: 20px;
   
   font-size: 21px;
   text-transform: uppercase;
