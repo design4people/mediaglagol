@@ -768,3 +768,12 @@ img {
   
   text-align: justify;
 }
+
+.site-footer {
+  color: #ffffff;
+  
+  background-color: #000000;
+  background-image: url("../img/pattern-dark.png");
+  background-position: 0 0;
+  background-repeat: repeat;
+}
