@@ -787,3 +787,17 @@ img {
 .site-footer a:focus {
   text-decoration: none;
 }
+
+.site-footer__social {
+  text-align: center;
+}
+
+.site-footer__social ul {
+  list-style: none;
+}
+
+.site-footer__social a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
