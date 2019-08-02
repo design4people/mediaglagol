@@ -772,7 +772,7 @@ img {
 .site-footer {
   color: #ffffff;
   
-  background-color: #000000;
+  background-color: #252525;
   background-image: url("../img/pattern-dark.png");
   background-position: 0 0;
   background-repeat: repeat;
@@ -783,6 +783,7 @@ img {
   text-decoration: underline;
 }
 
-.site-footer a:hover {
+.site-footer a:hover
+.site-footer a:focus {
   text-decoration: none;
 }
