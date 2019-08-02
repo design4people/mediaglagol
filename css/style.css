@@ -793,6 +793,8 @@ img {
 }
 
 .site-footer__social ul {
+  margin: 0;
+  padding: 0;
   list-style: none;
 }
 
@@ -800,4 +802,3 @@ img {
   color: #ffffff;
   text-decoration: none;
 }
-
