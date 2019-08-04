@@ -819,7 +819,6 @@ img {
   text-decoration: none;
   
   /* background: #000000 url("../img/social-spite.png") top no-repeat; */
-  
   background-color: #ffffff;
   background-image: url("../img/social-sprite.png");
   background-size: 40px 240px;
@@ -837,4 +836,20 @@ img {
 
 .site-footer__social .social__link--twitter {
   background-position: 0 -80px;
+}
+
+.site-footer__social a:hover {
+  background-color: #000000;
+}
+
+.site-footer__social .social__link--facebook:hover {
+  background-position: 0 -120px;
+}
+
+.site-footer__social .social__link--vkontakte:hover {
+  background-position: 0 -160px;
+}
+
+.site-footer__social .social__link--twitter:hover {
+  background-position: 0 -200px;
 }
