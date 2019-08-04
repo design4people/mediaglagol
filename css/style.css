@@ -806,6 +806,10 @@ img {
   list-style: none;
 }
 
+.site-footer__social li {
+  margin: 0 5px;
+}
+
 .site-footer__social a {
   display: block;
   width: 40px;
