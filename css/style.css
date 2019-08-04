@@ -797,8 +797,12 @@ img {
 }
 
 .site-footer__social ul {
+  display: flex;
   margin: 0;
   padding: 0;
+  
+  justify-content: center;
+  
   list-style: none;
 }
 
