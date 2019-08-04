@@ -792,6 +792,10 @@ img {
   text-align: center;
 }
 
+.site-footer__social h3 {
+  margin: 0;
+}
+
 .site-footer__social ul {
   margin: 0;
   padding: 0;
