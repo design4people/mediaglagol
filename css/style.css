@@ -818,7 +818,6 @@ img {
   color: #ffffff;
   text-decoration: none;
   
-  
   /* background: #000000 url("../img/social-spite.png") top no-repeat; */
   
   background-color: #ffffff;
@@ -826,4 +825,16 @@ img {
   background-size: 40px 240px;
   background-position: top;
   background-repeat: no-repeat;
+}
+
+.site-footer__social .social__link--facebook {
+  background-position: 0 0;
+}
+
+.site-footer__social .social__link--vkontakte {
+  background-position: 0 -40px;
+}
+
+.site-footer__social .social__link--twitter {
+  background-position: 0 -80px;
 }
