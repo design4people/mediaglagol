@@ -853,3 +853,20 @@ img {
 .site-footer__social .social__link--twitter:hover {
   background-position: 0 -200px;
 }
+
+.site-footer__development {
+  width: 300px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  
+  text-align: center;
+}
+
+.site-footer__development h3 {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.site-footer__development p {
+  margin: 0;
+}
