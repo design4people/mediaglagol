@@ -835,15 +835,15 @@ img {
 }
 
 .site-footer__social .social__link--facebook {
-  background-position: 0 0;
+  background-position: 20px 0;
 }
 
 .site-footer__social .social__link--vkontakte {
-  background-position: 0 -40px;
+  background-position: 20px -100px;
 }
 
 .site-footer__social .social__link--twitter {
-  background-position: 0 -80px;
+  background-position: 20px -50px;
 }
 
 .site-footer__social a:hover {
