@@ -787,6 +787,27 @@ img {
   text-decoration: none;
 }
 
+.site-footer__copyright {
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  padding-top: 50px;
+  
+  text-align: center;
+}
+
+.site-footer__copyright h3 {
+  margin: 0;
+  margin-bottom: 20px;
+  
+  font-size: 18px;
+}
+
+.site-footer__copyright p {
+  margin: 0;
+  margin-bottom: 20px;
+}
+
 .site-footer__social {
   width: 300px;
   margin: 0 auto;
