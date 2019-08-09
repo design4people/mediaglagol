@@ -808,6 +808,22 @@ img {
   margin-bottom: 20px;
 }
 
+.site-footer__copyright a {
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  border: 1px solid #555555;
+  
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 18px;
+  
+  background-color: #252525;
+  /* text-decoration: none; */
+  
+  cursor: pointer;
+}
+
 .site-footer__social {
   width: 300px;
   margin: 0 auto;
