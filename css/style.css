@@ -818,16 +818,18 @@ img {
 
 .site-footer__social a {
   display: block;
-  width: 40px;
-  height: 40px;
+  box-sizing: border-box;
+  height: 50px;
+  width: 90px;
   
   color: #ffffff;
   text-decoration: none;
   
+  border: 1px solid #555555;
   /* background: #000000 url("../img/social-spite.png") top no-repeat; */
-  background-color: #ffffff;
+  background-color: #252525;
   background-image: url("../img/social-sprite.png");
-  background-size: 40px 240px;
+  background-size: 50px 300px;
   background-position: top;
   background-repeat: no-repeat;
 }
