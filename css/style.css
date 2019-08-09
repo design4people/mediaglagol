@@ -807,13 +807,13 @@ img {
   margin: 0;
   padding: 0;
   
-  justify-content: center;
+  justify-content: space-between;
   
   list-style: none;
 }
 
 .site-footer__social li {
-  margin: 0 5px;
+  margin: 0;
 }
 
 .site-footer__social a {
