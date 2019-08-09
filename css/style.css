@@ -788,6 +788,10 @@ img {
 }
 
 .site-footer__social {
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  
   text-align: center;
 }
 
