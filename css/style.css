@@ -797,6 +797,9 @@ img {
 
 .site-footer__social h3 {
   margin: 0;
+  margin-bottom: 20px;
+
+  font-size: 18px;
 }
 
 .site-footer__social ul {
