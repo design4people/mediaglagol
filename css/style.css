@@ -769,7 +769,7 @@ img {
 }
 
 .site-footer {
-  color: #ffffff;
+  color: #cccccc;
   
   background-color: #252525;
   background-image: url("../img/pattern-dark.png");
@@ -800,6 +800,7 @@ img {
   margin: 0;
   margin-bottom: 20px;
   
+  font-weight: normal;
   font-size: 18px;
 }
 
@@ -835,7 +836,8 @@ img {
 .site-footer__social h3 {
   margin: 0;
   margin-bottom: 20px;
-
+  
+  font-weight: normal;
   font-size: 18px;
 }
 
@@ -911,6 +913,7 @@ img {
   margin: 0;
   margin-bottom: 20px;
   
+  font-weight: normal;
   font-size: 18px;
 }
 
