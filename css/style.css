@@ -843,6 +843,29 @@ img {
   cursor: pointer;
 }
 
+@media (min-width: 768px) {
+  .site-footer__copyright {
+    width: 640px;
+    margin: 0;
+    margin-bottom: 50px;
+    
+    /* order: 2; */
+    
+    text-align: left;
+  }
+  
+  .site-footer__copyright p {
+    margin: 0;
+  }
+  
+  .site-footer__copyright a {
+    display: inline;
+    
+    border: none;
+    background: none;
+  }
+}
+
 .site-footer__social {
   width: 300px;
   margin: 0 auto;
