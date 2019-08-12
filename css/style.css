@@ -891,20 +891,22 @@ img {
   background-position: 20px -50px;
 }
 
-.site-footer__social a:hover {
-  background-color: #000000;
-}
+@media (min-width: 1200px) {
+  .site-footer__social a:hover {
+    background-color: #000000;
+  }
 
-.site-footer__social .social__link--facebook:hover {
-  background-position: 0 -120px;
-}
+  .site-footer__social .social__link--facebook:hover {
+    background-position: 0 -120px;
+  }
 
-.site-footer__social .social__link--vkontakte:hover {
-  background-position: 0 -160px;
-}
+  .site-footer__social .social__link--vkontakte:hover {
+    background-position: 0 -160px;
+  }
 
-.site-footer__social .social__link--twitter:hover {
-  background-position: 0 -200px;
+  .site-footer__social .social__link--twitter:hover {
+    background-position: 0 -200px;
+  }
 }
 
 .site-footer__development {
