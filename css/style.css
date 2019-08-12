@@ -867,11 +867,17 @@ img {
 }
 
 .site-footer__social {
-  width: 300px;
-  margin: 0 auto;
+  width: auto;
+  margin: 0;
   margin-bottom: 50px;
   
   text-align: center;
+}
+
+@media (min-width: 768px){
+  .site-footer__social {
+  width: 300px;
+  }
 }
 
 .site-footer__social h3 {
