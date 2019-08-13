@@ -886,6 +886,15 @@ img {
   }
 }
 
+@media (width: 1200px) {
+  .site-footer__copyright a:hover,
+  .site-footer__copyright a:active {
+    color: #000000;
+    
+    background-color: #ffffff;
+  }
+}
+
 .site-footer__social {
   width: auto;
   margin: 0;
