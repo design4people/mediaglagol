@@ -806,6 +806,16 @@ img {
   }
 }
 
+@media (min-width: 1200px) {
+  .site-footer__wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    
+    margin: 0 auto;
+    width: 960px;
+  }
+}
+
 .site-footer__copyright {
   width: 300px;
   margin: 0 auto;
