@@ -824,6 +824,23 @@ img {
   text-align: center;
 }
 
+@media (min-width: 768px) {
+  .site-footer__copyright {
+    width: 640px;
+    margin: 0;
+    
+    /* order: 2; */
+    
+    text-align: left;
+  }
+} 
+
+@media (min-width: 1200px) {
+  .site-footer__copyright {
+    width: 300px;
+  }
+} 
+
 .site-footer__copyright h3 {
   margin: 0;
   margin-bottom: 20px;
@@ -855,17 +872,8 @@ img {
   cursor: pointer;
 }
 
-@media (min-width: 768px) {
-  .site-footer__copyright {
-    width: 640px;
-    margin: 0;
-    margin-bottom: 50px;
-    
-    /* order: 2; */
-    
-    text-align: left;
-  }
   
+@media (min-width: 768px) {
   .site-footer__copyright p {
     margin: 0;
   }
