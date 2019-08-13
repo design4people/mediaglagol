@@ -950,6 +950,18 @@ img {
   }
 }
 
+@media (min-width: 768px) {
+  .site-footer__social a {
+    width: 100px;
+    border: 1px solid #555555;
+    border-left: none;
+  }
+  
+  .site-footer__social .social__item:first-child a {
+    border-left: 1px solid #555555;
+  }
+}
+
 .site-footer__development {
   width: 300px;
   margin: 0 auto;
