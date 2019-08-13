@@ -963,11 +963,18 @@ img {
 }
 
 .site-footer__development {
-  width: 300px;
-  margin: 0 auto;
+  width: auto;
+  margin: 0;
   margin-bottom: 50px;
   
   text-align: center;
+}
+
+@media (min-width: 768px) {
+  .site-footer__development {
+    width: 300px;
+    margin: 0;
+  }
 }
 
 .site-footer__development h3 {
@@ -998,13 +1005,6 @@ img {
   cursor: pointer;
 }
 
-
 .site-footer__development a:active {
   background-color: #ffffff;
-}
-
-@media (min-width: 1200px) {
-  .site-footer__development a:hover {
-    background-color: #ffffff;
-  }
 }
