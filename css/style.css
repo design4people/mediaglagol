@@ -1034,6 +1034,14 @@ img {
   }
 }
 
+@media (min-width: 1200px) {
+  .site-footer__development a:hover {
+    background-color: #ffffff;
+  
+    transition:  background-color 0.5s;
+  }
+}
+
 .site-footer__development h3 {
   margin: 0;
   margin-bottom: 20px;
