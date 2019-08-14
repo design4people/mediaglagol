@@ -784,7 +784,7 @@ img {
 
 .site-footer a:hover,
 .site-footer a:focus {
-  color: #555555;
+  /* color: #555555; */
   text-decoration: none;
 }
 
