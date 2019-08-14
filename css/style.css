@@ -1088,8 +1088,11 @@ img {
 
 @media (min-width: 1200px) {
   .site-footer__development a:hover {
-    background-color: #555555;
+    color: #555555;
+    background-color: #ffffff;
   
-    transition:  background-color 0.5s;
+    transition:
+      background-color 0.5s,
+      color 0.5s;
   }
 }
