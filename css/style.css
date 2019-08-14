@@ -1036,6 +1036,15 @@ img {
   text-align: center;
 }
 
+.site-footer__development a:focus {
+  color: #ffffff;
+  background-color: #555555;
+  
+  transition:
+    background-position 0.5s,
+    background-color 0.5s;
+}
+
 @media (min-width: 768px) {
   .site-footer__development {
     width: 300px;
