@@ -985,6 +985,18 @@ img {
   .site-footer__social .social__item:first-child a {
     border-left: 1px solid #555555;
   }
+  
+  .site-footer__social .social__link--facebook {
+    background-position: 25px 0;
+  }
+  
+  .site-footer__social .social__link--vkontakte {
+    background-position: 25px -100px;
+  }
+  
+  .site-footer__social .social__link--twitter {
+    background-position: 25px -50px;
+  }
 }
 
 @media (min-width: 1200px) {
