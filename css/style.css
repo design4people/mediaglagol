@@ -967,6 +967,14 @@ img {
   background-position: 20px -50px;
 }
 
+.site-footer__social a:focus {
+  background-color: #555555;
+  
+  transition:
+    background-position 0.5s,
+    background-color 0.5s;
+}
+
 @media (min-width: 768px) {
   .site-footer__social a {
     width: 100px;
