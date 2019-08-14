@@ -828,12 +828,13 @@ img {
   .site-footer__copyright {
     width: 640px;
     margin: 0;
+    margin-bottom: 50px;
     
     /* order: 2; */
     
     text-align: left;
   }
-} 
+}
 
 @media (min-width: 1200px) {
   .site-footer__copyright {
