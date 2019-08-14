@@ -1008,7 +1008,7 @@ img {
   }
   
   .site-footer__social a:hover {
-    background-color: #000000;
+    background-color: #555555;
     
     transition:
       background-position 0.5s,
