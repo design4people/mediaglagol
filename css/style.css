@@ -768,6 +768,13 @@ img {
   text-align: justify;
 }
 
+@media (min-width: 768px) {
+  .topic,
+  .contacts {
+    width: 640px;
+  }
+}
+
 .site-footer {
   color: #cccccc;
   
