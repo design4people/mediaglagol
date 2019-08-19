@@ -829,6 +829,13 @@ img {
   }
 }
 
+@media (min-width: 1200px) {
+  .topic,
+  .contacts {
+    width: 960px;
+  }
+}
+
 .site-footer {
   color: #cccccc;
   
