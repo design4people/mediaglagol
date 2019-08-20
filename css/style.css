@@ -769,10 +769,15 @@ img {
   .feature__item::before,
   .feature__item::after {
     background-image: none; 
+    height: 0;
     
+    background-color: transparent;
+  }
+  
+  .feature__item::after {
     bottom: 0px;
     
-    width: 50%;
+    width: 100%;
     height: 1px;
     
     background-color: rgba(125,125,125,0.5);
