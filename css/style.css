@@ -768,9 +768,10 @@ img {
   
   .feature__item::before,
   .feature__item::after {
-    background-image: none; 
+    width: 0;
     height: 0;
     
+    background-image: none; 
     background-color: transparent;
   }
   
@@ -818,14 +819,11 @@ img {
   }
   
   .feature__item::after {
-    content: "";
     top: 0;
     right: -50px;
      
     width: 1px;
     height: 100%;
-    
-    background-color: rgba(125,125,125,0.5);
   }
 }
 
