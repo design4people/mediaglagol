@@ -836,6 +836,12 @@ img {
   margin: 0;
 }
 
+@media (min-width: 1200px) {
+  .feature__item h3 {
+    text-align: center;
+  }
+}
+
 .topic,
 .contacts {
   width: 300px;
