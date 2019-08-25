@@ -335,8 +335,11 @@ img {
 @media (min-width: 768px) {
   .site-list {
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
+    flex-wrap: no-wrap;
     justify-content: start;
+    
+    overflow: hidden;
     
     width: 570px;
   }
@@ -354,6 +357,10 @@ img {
     padding: 0;
     padding-top: 25px ;
     padding-bottom: 25px;
+    
+    /* заборона переносити слова на інший рядок */
+    white-space: nowrap;
+    
     background: none;
     border: none;
   }
@@ -387,7 +394,8 @@ img {
   .site-list__item--active::after {
     content: "";
     position: absolute;
-    bottom: -5px;
+    /* bottom: -5px; */
+    bottom: 0;
     right: 0;
     left: 0;
     /* width: 100%; */
