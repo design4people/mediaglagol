@@ -1263,7 +1263,7 @@ img {
   background-color: #723e26;
   /* background-color: rgba(0,255,0,0.5); */
   border: none;
-  background-image: url("../img/search-icon.svg");
+  background-image: url("../img/search-icon--white.svg");
   background-repeat: no-repeat;
   background-size: 32px 32px;
   background-position: 50% ;
