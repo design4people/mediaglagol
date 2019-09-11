@@ -488,6 +488,9 @@ img {
 
 @media (min-width: 768px) {
   .user-list {
+    /* тимчасово */
+    display: none;
+    
     width: 60px;
   }
   
