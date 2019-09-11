@@ -1367,3 +1367,20 @@ img {
   background-color: #ffffff;
   background-image: url("../img/search-icon--gray.svg");
 }
+
+@media (max-width: 767px){
+  .main-nav--nojs {
+    position: static;
+  }
+  
+  .main-nav--nojs .main-nav__search-toggle {
+    display: none;
+  }
+  
+  .main-nav--nojs .main-nav__search-form {
+    position: static;
+    display: flex;
+    
+    /* background-color: #723e26; */
+  }
+}
