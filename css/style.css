@@ -1308,3 +1308,62 @@ img {
   
   cursor: pointer;
 }
+
+.main-nav__search--closed .main-nav__search-form {
+  display: none;
+}
+
+.main-nav__search--opened {
+  box-shadow: 0 0 10px 0 #000;
+}
+
+.main-nav__search--opened .main-nav__search-toggle {
+  order: 1;
+  background-image: url("../img/close-icon--white.svg");
+}
+
+.main-nav__search--opened .main-nav__search-form {
+  position: relative;
+  width: 250px;
+}
+
+/* .main-nav__search--opened .main-nav__search-form::before { */
+  /* content: ""; */
+  /* position: absolute; */
+  /* z-index: 4; */
+  /* top: 40px; */
+  /* right: 10px; */
+  /* width: 170px; */
+  /* height: 1px; */
+  /* background-color: #723e26; */
+/* } */
+
+.main-nav__search--opened .main-nav__search-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  
+  box-sizing: border-box;
+  width: 250px;
+  height: 51px;
+  padding-left: 70px ;
+  padding-right: 5px;
+  
+  flex-grow: 1;
+  
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.main-nav__search--opened .main-nav__search-button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  
+  width: 70px;
+  
+  background-color: #ffffff;
+  background-image: url("../img/search-icon--gray.svg");
+}
