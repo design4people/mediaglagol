@@ -1482,3 +1482,114 @@ img {
     background-color: #4d200b;
   }
 }
+
+@media (min-width: 1200px) {
+  .main-nav__search {
+    padding: 0;
+    min-width: 50px;  
+  }
+  
+  .main-nav__search-toggle {
+    display: block;
+    
+    box-sizing: content-box;
+    width: auto;
+    height: 50px;
+    margin: 11px 0;
+    padding: 0 50px 0 10px;
+    border: 1px solid rgba(255,255,255,0.5);
+    
+    font: inherit;
+    font-size: 18px;
+    line-height: 24px;
+    /* font-weight: bold; */
+    color: #fff;
+    
+    background-size: 24px 24px;
+    background-position: 78px 50%;
+    background-color: #4d200b;
+  }
+  
+  .main-nav__search-toggle:hover {
+    border: 1px solid #cd9723;
+    
+    color: #cd9723;
+    background-color: rgba(255,255,255,0.1);
+  }
+  
+  .main-nav__search-toggle__text {
+    /* display: inline-block; */
+    display: block;
+  }
+  
+  .main-nav__search--opened .main-nav__search-toggle__text {
+    display: none;
+  }
+  
+  .main-nav__search--opened .main-nav__search-toggle {
+    width: 50px;
+    height: 50px;
+    margin: 11px 0;
+    padding: 0;
+    border: 1px solid rgba(255,255,255,0.5);
+    border-left: none;
+    
+    background-position: 50%;
+  }
+  
+  .main-nav__search--opened .main-nav__search-toggle:hover {
+    border-color: #cd9723;
+  }
+  
+  .main-nav__search--opened .main-nav__search-form {
+    right: 50px;
+    width: 910px;
+    height: 74px;
+    background-color: #4d200b;
+  }
+  
+  .main-nav__search--opened .main-nav__search-input {
+    position: static;
+    
+    box-sizing: content-box;
+    height: 50px;
+    margin: 11px 0;
+    border: 1px solid #a69085;
+    padding: 0 10px;
+    
+    flex-grow: 1;
+    order: 1;
+    
+    line-height: 24px;
+  }
+  
+  .main-nav__search--opened .main-nav__search-input:hover {
+    border-color: #cd9723;
+    
+    background-color: rgba(245,245,245,1);
+  }
+  
+  .main-nav__search--opened .main-nav__search-button {
+    position: static;
+    
+    box-sizing: content-box;
+    width: 50px;
+    height: 50px;
+    margin: 11px 0;
+    border: 1px solid rgba(255,255,255,0.5);
+    border-right: none;
+    padding: 0;
+    
+    background-image: url("../img/search-icon--white.svg");
+    background-size: 24px 24px;
+    background-position: 50%;
+    background-color: #4d200b;
+  }
+  
+  .main-nav__search--opened .main-nav__search-button:hover {
+    border-color: #cd9723;
+    
+    color: #cd9723;
+    background-color: rgba(255,255,255,0.1);
+  }
+}
