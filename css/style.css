@@ -737,13 +737,20 @@ img {
   padding-bottom: 50px;
   text-align: center;
   
-  background-image: url("../img/feature__item-icon.svg");
   background-position: 50% 35px ;
   background-repeat: no-repeat;
-  background-size: 80px; 
+  background-size: 90px; 
   
   /* тимчасово */
   /* background-color: rgba(255,255,255,0.03); */
+}
+
+.feature__item--scool {
+  background-image: url("../img/school-icon--color.svg");
+}
+
+.feature__item--library {
+  background-image: url("../img/library-icon--color.svg");
 }
 
 .feature__item::before,
