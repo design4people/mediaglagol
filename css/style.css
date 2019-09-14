@@ -344,7 +344,7 @@ img {
     
     overflow: hidden;
     
-    width: 600px;
+    width: 595px;
   }
   
   .site-list__item {
@@ -376,7 +376,8 @@ img {
   .site-list__item a[href]:hover::after {
     content: "";
     position: absolute;
-    bottom: -5px;
+    /* bottom: -5px; */
+    bottom: 0;
     right: 0;
     left: 0;
     /* width: 100%; */
