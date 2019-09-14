@@ -1279,35 +1279,33 @@ img {
   cursor: pointer;
 }
 
+.main-nav__search-toggle__text {
+  display: none;
+}
+
 .main-nav__search-form {
-  height: 51px;
-  /* border-bottom: 1px solid #723e26; */
-  
   display: flex;
+  
+  height: 51px;
+  padding: 0;
 }
 
 .main-nav__search-input {
   width: 210px;
-  height: 51px;
+  margin: 0;
+  border: 0;
+  padding: 12px 20px;
   
   font: inherit;
-  
-  margin: 0;
-  padding: 12px 20px;
-  padding-top: 13px;
-  border: 0;
 }
 
 .main-nav__search-button {
   width: 70px;
   height: 51px;
   border: 0;
-  
-  flex-grow: 1;
-  
+ 
   font-size: 0;
   
-  /* border: none; */
   background-color: #723e26;
   background-image: url("../img/search-icon--white.svg");
   background-repeat: no-repeat;
