@@ -123,7 +123,7 @@ img {
   position: relative;
   
   width: 320px;
-  /* встановлення мінімальної висоти блоку необхідно оскільки його внутрішній контент знаходиться по за потоком і висота блоку без контенту дорівнює 0 */
+  /* встановлення мінімальної висоти блоку необхідно оскільки його внутрішній контент у випадку абсолютного позиціонування опиняється поза потоком і висота блоку без контенту дорівнює 0 */
   min-height: 51px;
   margin: 0 auto;
   
@@ -1381,23 +1381,6 @@ img {
   
   background-color: #ffffff;
   background-image: url("../img/search-icon--gray.svg");
-}
-
-@media (max-width: 767px){
-  .main-nav--nojs {
-    position: static;
-  }
-  
-  .main-nav--nojs .main-nav__search-toggle {
-    display: none;
-  }
-  
-  .main-nav--nojs .main-nav__search-form {
-    position: static;
-    display: flex;
-    
-    /* background-color: #723e26; */
-  }
 }
 
 @media (max-width: 767px){
