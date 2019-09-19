@@ -121,6 +121,31 @@ img {
   }
 }
 
+.site-header__banner {
+  height: 230px;
+  
+  text-align: center;
+  
+  background-image: url("../img/bg-header--sm.jpg");
+  background-position: 50% bottom;
+}
+
+@media (min-width: 768px) {
+  .site-header__banner {
+    height: 360px;
+    
+    background-image: url("../img/bg-header--md.jpg");
+  }
+}
+
+@media (min-width: 1200px) {
+  .site-header__banner {
+    height: 575px;
+    
+    background-image: url("../img/bg-header--gr.jpg");
+  }
+}
+
 .main-nav {
   position: relative;
   
@@ -794,8 +819,6 @@ img {
     padding-top: 50px;
     padding-left: 150px;
     padding-bottom: 50px;
-    
-    text-align: justify;
     
     background-size: 100px; 
     background-position: 0px 50%;
